@@ -1,0 +1,14 @@
+<div class="container">
+    <form {{action 'register' on='submit'}} class="form-register">
+        <h2 class="form-heading">{{t "registration.template.form.title"}}</h2>
+        <label for="first_name" class="sr-only">{{t "registration.template.form.first_name"}}</label>
+        {{input id='first_name' placeholder=(t "registration.template.form.first_name_placeholder") class="form-control" value=first_name}}
+        <label for="last_name" class="sr-only">{{t "registration.template.form.last_name"}}</label>
+        {{input id='last_name' placeholder=(t "registration.template.form.last_name_placeholder") class="form-control" value=last_name}}
+        <label for="email" class="sr-only">{{t "registration.template.form.email"}}</label>
+        {{input id='email' placeholder=(t "registration.template.form.email_placeholder") class="form-control" value=email}}
+        <label for="password" class="sr-only">{{t "registration.template.form.password"}}</label>
+        {{input id='password' placeholder=(t "registration.template.form.password_placeholder") type='password' class="form-control" value=password}}
+        <button type="submit" class="btn btn-primary btn-block">{{t "registration.template.form.button"}}</button>
+    </form>
+</div>
