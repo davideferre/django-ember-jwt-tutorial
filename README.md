@@ -13,7 +13,8 @@ Installation:
     $ python3 manage.py createsuperuser
     $ python3 manage.py runserver
 
-In a separate shell:
+_In a separate shell:_
+    
     $ npm install
     $ bower install
     $ ember serve
