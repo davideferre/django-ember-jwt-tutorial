@@ -7,7 +7,7 @@ Installation:
 -------------
     $ virtualenv --python=$(which python3)
     $ git clone https://github.com/davideferre/django-ember-jwt-tutorial.git
-    $ cd django-ember.js-jwt-tutorial
+    $ cd django-ember-jwt-tutorial
     $ pip install -r requirements.txt
     $ python3 manage.py migrate
     $ python3 manage.py createsuperuser
