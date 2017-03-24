@@ -15,9 +15,9 @@ Installation:
 
 _In a separate shell:_
     
+    $ cd client
     $ npm install
-    $ bower install
-    $ ember serve
+    $ npm start
 
 Usage:
 ------
