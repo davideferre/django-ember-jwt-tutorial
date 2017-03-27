@@ -5,10 +5,12 @@ A sample Ember.js client app with registration and login routes and Django REST 
 
 Installation:
 -------------
-    $ virtualenv --python=$(which python3)
+    $ virtualenv --python=$(which python3) venv
+    $ source venv/bin/activate
     $ git clone https://github.com/davideferre/django-ember-jwt-tutorial.git
     $ cd django-ember-jwt-tutorial
     $ pip install -r requirements.txt
+    $ cd server
     $ python3 manage.py migrate
     $ python3 manage.py createsuperuser
     $ python3 manage.py runserver
