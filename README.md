@@ -1,7 +1,7 @@
 Django - Ember.js tutorial for using JSON web token (JWT) authentication
 ======================================================================
 
-A sample Ember.js client app with registration and login routes and Django REST API backend server made with django-rest-framework.
+A sample [Ember.js](https://emberjs.com/) client app with registration and login routes and [Django](https://www.djangoproject.com/) REST API backend server made with [Django REST framework](http://www.django-rest-framework.org/).
 
 Installation:
 -------------
